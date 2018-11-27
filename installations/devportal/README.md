@@ -1,5 +1,5 @@
-# Apigee Private Cloud AIO Installer
-This script will install the `aio` profile of the Edge installation. 
+# Apigee Private Cloud Dev Portal Installer
+This script will install the `devportal` profile of the Edge installation. 
 
 ## Usage: 
 This is an Ansible script and require Ansible. Please follow the usage instructions below:
@@ -11,7 +11,7 @@ above.
     ansible-galaxy install -r requirements -f
     
 ### Installer
-This playbook completes the installation of the `aio` instances of Edge.
+This playbook completes the installation of the `devportal` instances of Edge.
 
     
     ansible-playbook install.yml 
